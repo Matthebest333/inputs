@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+	<body>
+		<h1>Register</h1>
+		<form>
+		<label for="firstName">First name:</label>
+		<input id="firstName" type="text" placeholder="First Name" required>
+		<label for="lastName">Last name:</label>
+		<input id="lastName" type="text" placeholder="Last name" required>
+		
+		<div>
+			<label for="male">Male: </label>
+			<input name="gender" id="male" type="radio">
+			<label for="female">Female: </label>
+			<input name="gender" id="female" type="radio">
+			<label for="other">Other: </label>
+			<input name="gender" id="other" type="radio">	
+		</div>
+		<div>
+			<label for="email">Email:</label>
+			<input id="email" type="email" placeholder="someone@gmail.com">
+	
+			<label for="password">Password:</label>
+			<input id="password" pattern=".{5, 10}"type="password" placeholder="password" required>
+		</div>
+		
+		<div>
+			<label>Birthday:</label>
+			<select>
+			<option disabled selected>Month</option>
+				<option>January</option>
+				<option>February</option>
+				<option>March</option>
+				<option>April</option>
+				<option>May</option>
+				<option>June</option>
+				<option>July</option>
+				<option>August</option>
+				<option>September</option>
+				<option>October</option>
+				<option>November</option>
+				<option>December</option>
+			</select>
+			<select>
+				<option></option>
+			</select>
+		</div>
+		<button>Submit</button>
+		</form>
+	</body>
+</html>
